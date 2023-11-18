@@ -1,0 +1,148 @@
+* {
+    font-family: "Jost", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-family: "Raleway", sans-serif;
+    color: #f1f6f9;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-column-gap: 30px;
+    background: #16213e;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: rgba(241, 246, 249, 0.15) 0px 2px 5px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.sidebar {
+    width: 500px;
+}
+.menu {
+    background: #0f3460;
+    margin: 10px;
+    text-align: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 20px;
+    box-shadow: rgba(241, 246, 249, 0.15) 0px 2px 5px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.ins {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+.controllers {
+    margin: 20px;
+}
+.checks {
+    text-align: justify;
+    margin: 10px;
+    padding-left: 50px;
+}
+.drop {
+    text-align: justify;
+    margin: 10px;
+    padding-left: 50px;
+}
+.select {
+    width: 150px;
+}
+.table-container {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+.table {
+    margin: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+    background: #0f3460;
+}
+.tab {
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 50px;
+}
+/* Estilo para la barra de desplazamiento en navegadores basados en WebKit (como Chrome y Safari) */
+.table-container::-webkit-scrollbar {
+    width: 8px; /* Ancho de la barra de desplazamiento */
+}
+
+.table-container::-webkit-scrollbar-track {
+    background: #16213e; /* Color del fondo de la barra de desplazamiento */
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background-color: #e94560; /* Color de la barra de desplazamiento */
+    border-radius: 10px; /* Radio de borde de la barra de desplazamiento */
+}
+.multi-range {
+    width: 300px;
+    background: #000;
+}
+.t {
+    background-color: #0f3460;
+    border-collapse: collapse;
+    border-radius: 20px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    box-shadow: rgba(241, 246, 249, 0.15) 0px 2px 5px 0px,
+        rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin-top: 20px;
+}
+.t th,
+.t td {
+    padding: 8px;
+    text-align: center;
+}
+.t th {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background: #0f3460;
+    border-radius: 20px;
+    /* z-index: 2; */
+}
+.title {
+    text-align: start;
+}
+.subtitle {
+    padding: 20px;
+}
+.filter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+label {
+    font-size: 20px;
+    padding: 10px;
+}
+h1 {
+    font-size: x-large;
+}
+h2,
+.subtitle,
+p {
+    color: #e94560;
+}
+select,
+option {
+    border-radius: 20px;
+    width: 200px;
+
+    color: #16213e;
+}
